@@ -2,9 +2,9 @@
 
 :muscle: :small_blue_diamond: :blue_heart: :small_blue_diamond: :hand:
 
-  Hi, I’m @kubow :gemini:
+Hi, I'm @kubow :gemini:
 
-👀 I’m interested in all that stuff thats around
+I am interested in all that stuff thats around.
 
 ### You can spot me here:
 
@@ -15,12 +15,15 @@
 <a href="https://app.slack.com/" target="_blank">
 	<img align="left" alt="kubow | slack" width="33px" src="https://camo.githubusercontent.com/45d2bca536994eea59eb8758b289563d9c4825ad1d661bbcf4800664b949496f/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f736c61636b2e737667" />
 </a>
+
 <a href="https://discord.com/channels/@me" target="_blank">
 	<img align="left" alt="kubow | discord" width="33px" src="https://camo.githubusercontent.com/79fcdc7c43f1a1d7c175827976ffee8177814a016fb1b9578ff70f1aef759578/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f646973636f72642e737667" />
 </a>
+
 <a href="https://stackoverflow.com/users/6905166/kube-kubow" target="_blank">
 	<img align="left" alt="kubow | so" width="33px" src="https://camo.githubusercontent.com/ad1dcdc76b0be1423e54a791d31311e91e8e89bb8492be214cfc3390e24c323d/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f737461636b6f766572666c6f772e737667" />
 </a>
+
 <a href="https://www.quora.com/profile/Kube-Kubow?q=kubow" target="_blank">
 	<img align="left" alt="kubow | discord" width="33px" src="https://camo.githubusercontent.com/d91821b997572279bcda39224cd22ed45b90d9af1261d36a9520b0ba6f8d2d6f/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f71756f72612e737667" />
 </a>
@@ -58,6 +61,6 @@
 
 <br/>
 <!---
-kubow/kubow is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+kubow/kubow is a "special" repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
 --->
