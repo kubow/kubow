@@ -4,7 +4,23 @@
 
 Hi, I'm @kubow :gemini:
 
-I am interested in all that stuff thats around.
+I am interested in all that stuff thats around. My mainstream public projects (mostly knowledge bases):
+
+- [Star Encyklopedia | H808E (General Knowledge Base)](https://github.com/kubow/h808e)
+- [Concepts related to Programming languages](https://github.com/kubow/prg-concepts)
+- [Concepts related to mapping and GIS related technology](https://github.com/kubow/map-model)
+- [Observing planets and objects on the sky](https://github.com/kubow/PlanetarySystemObserver)
+- [Productivity tips collected](https://github.com/kubow/Productivity)
+
+I have also a set of example applications created in python programming language:
+
+- [Processor for various database outputs (log files, sysmons, ...)](https://github.com/kubow/Sybase_Collector)
+
+- [GUI for editing contacts (those ancient VCards)](https://github.com/kubow/vcf_editor)
+
+- [Browser/Editor to work with JSON/XML files (future release will cover more)](https://github.com/kubow/JSONXML_editor)
+
+  
 
 [![](https://mermaid.ink/img/pako:eNp1UmFr2zAQ_SuHvywBBZJsTVd_c5esLSNbRsrKwF9U6RyLypKRzmtF6X_fuXG6pDBhbHG-9-69u3vOlNeY5dlOOqLSAR8yZBG-dfevL__4IQI-tRgMOoX7FC0Jv_rQSAJYLifr9eQ3n_2_iIqMd7BVR4DLzlht3A44lB6sb1EbCfuTq5mA6WzCz3w6_ShgPkt71Mr9McG7Bh1JC19qbEykkP6HOxtgtyhV3RdbS2KMJKOigE2dIl9AOv2OKo_HRAsQ8CmderlFVTtv_W6IX91sYXSddOhjRrG4NbfRWi46HsS98V0AE54PwLVRwUdfEfyoKqMQIkn1AKM7H7SA1ZNCK6BQCiMr_nVZQBv8LsimeWPO_yk9F_B54N0kqllnVMG01Fs_TpxNBcwOlq7QYWDBPEJ5LyOC8jylliKMeCR9La5MqUX-cIc6RV3A8SnfmYCLgW5bbGB5oGIXVsOojxXbFRtx6bHGgAJufr72_br4XoxPqBYCFgdl3uueimHSJh6aYZmtlVTxpp1an895SxiWiaxBXkOjeYWfe5oy60eOZZbzVWMlO0tlVroXTpUd-W1yKssraSOKrGv7RV7ubQ_Rl7_Cn-y-?type=png)](https://mermaid.live/edit#pako:eNp1UmFr2zAQ_SuHvywBBZJsTVd_c5esLSNbRsrKwF9U6RyLypKRzmtF6X_fuXG6pDBhbHG-9-69u3vOlNeY5dlOOqLSAR8yZBG-dfevL__4IQI-tRgMOoX7FC0Jv_rQSAJYLifr9eQ3n_2_iIqMd7BVR4DLzlht3A44lB6sb1EbCfuTq5mA6WzCz3w6_ShgPkt71Mr9McG7Bh1JC19qbEykkP6HOxtgtyhV3RdbS2KMJKOigE2dIl9AOv2OKo_HRAsQ8CmderlFVTtv_W6IX91sYXSddOhjRrG4NbfRWi46HsS98V0AE54PwLVRwUdfEfyoKqMQIkn1AKM7H7SA1ZNCK6BQCiMr_nVZQBv8LsimeWPO_yk9F_B54N0kqllnVMG01Fs_TpxNBcwOlq7QYWDBPEJ5LyOC8jylliKMeCR9La5MqUX-cIc6RV3A8SnfmYCLgW5bbGB5oGIXVsOojxXbFRtx6bHGgAJufr72_br4XoxPqBYCFgdl3uueimHSJh6aYZmtlVTxpp1an895SxiWiaxBXkOjeYWfe5oy60eOZZbzVWMlO0tlVroXTpUd-W1yKssraSOKrGv7RV7ubQ_Rl7_Cn-y-)
 
