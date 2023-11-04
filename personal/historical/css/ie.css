@@ -1,0 +1,27 @@
+﻿/* CSS Document for Internet Explorer */
+
+html body {
+				padding: 120px 0 50px 0;
+}
+html #contents {
+				height: 100%;
+				width: 100%;
+}
+
+.circle_obsah {
+				border-radius: 150px; 
+}
+.circle_levo {
+				border-radius: 150px; 
+}
+.circle_pravo {
+				border-radius: 150px; 
+}
+* html body{ /*IE6 hack*/
+padding: 130px 0 110px 0; /*Set value to (HeightOfTopFrameDiv 0 HeightOfBottomFrameDiv 0)*/
+}
+
+* html #H808E{ /*IE6 hack*/
+height: 100%; 
+width: 100%; 
+}

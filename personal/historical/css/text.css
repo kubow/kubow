@@ -1,0 +1,83 @@
+﻿/* CSS Document s nastavením fontu*/
+body{font-family: arial, verdana, sans-serif;}
+/*Georgia, "Times New Roman", Times, serif*/
+/*Arial, Helvetica, sans-serif*/
+/* special font tweaks */
+@import url('text_spec.css');
+p {
+    color:black;
+    /*color: #FFFFFF;*/
+    font-size: small;
+    text-decoration: none;
+    /*text-align: center;*/
+}
+h1 {
+    font-weight: bold;
+    font-size: 1.2em;
+    /*color: #FFFFFF;*/
+    color: #808080;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+	/*text-decoration: underline;*/
+}
+h2 {
+    font-size: 1.5em;
+    color: #FFFFFF;
+    /*color: #858085;*/
+    font-weight: bold;
+    text-decoration: none;
+	text-align: center;
+}
+h3 {
+    font-weight: bold;
+    font-size: 1em;
+    /*color: #FFFFFF;*/
+    color: #858085;
+    text-decoration: none;
+    font-style: italic;
+    width:100%; 
+}
+
+ul {
+    color: #FFFFFF;
+    font-weight: normal;
+    font-size: 12px;
+    text-decoration: none;
+}
+a {
+    text-decoration: none;		
+}
+/* Category menu view */
+.cat_main {
+    /*display:block;*/
+    font-size: /*2em;*/200%;
+    height: /*1.5em;*/15%;
+    text-transform: uppercase;
+	text-decoration: underline;
+}
+.cat_sub {
+    /*display:block;*/
+    font-size: /*1.1em;*/120%;
+    height: /*1.2em;*/15%;
+    /*font-size: 100%;*/
+}
+.l1 { /*level1*/
+    display:block;
+	font-size: /*2em;*/90%;
+	height: /*1.5em;*/25%;
+    text-align:center;
+}
+.l2 { /*level2*/
+	/*display:inline-list-item;*/
+    font-size: /*2em;*/80%;
+	height: /*1.5em;*/25%;
+    text-align:center;
+    margin: 0 3% 0 3%;
+    border:1px;
+}
+.l3 { /*level3*/
+    display:list-item block;
+	height: /*1.5em;*/25%;
+}
+

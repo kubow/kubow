@@ -1,0 +1,532 @@
+[bindings]
+{
+	name = "current";
+	[attack]
+	{
+		input = key_a;
+		qualifiers = key_down;
+	}
+	[camera_free_look]
+	{
+		input = key_d;
+		qualifiers = key_down | key_up;
+	}
+	[camera_rotate_down]
+	{
+		input = key_down;
+		qualifiers = key_down | key_up;
+	}
+	[camera_rotate_left]
+	{
+		input = key_left;
+		qualifiers = key_down | key_up;
+	}
+	[camera_rotate_right]
+	{
+		input = key_right;
+		qualifiers = key_down | key_up;
+	}
+	[camera_rotate_up]
+	{
+		input = key_up;
+		qualifiers = key_down | key_up;
+	}
+	[camera_track_toggle]
+	{
+		input = key_t;
+		qualifiers = key_down;
+	}
+	[camera_zoom_in]
+	{
+		input = key_equals;
+		qualifiers = key_down | key_up;
+	}
+	[camera_zoom_in]
+	{
+		input = wheel_up;
+	}
+	[camera_zoom_out]
+	{
+		input = key_minus;
+		qualifiers = key_down | key_up;
+	}
+	[camera_zoom_out]
+	{
+		input = wheel_down;
+	}
+	[cast]
+	{
+		input = key_c;
+		qualifiers = key_down;
+	}
+	[chat_history_clear]
+	{
+		input = key_end;
+		qualifiers = key_down;
+	}
+	[chat_history_down]
+	{
+		input = key_pagedown;
+		qualifiers = key_down;
+	}
+	[chat_history_lock]
+	{
+		input = key_scrolllock;
+		qualifiers = key_down;
+	}
+	[chat_history_up]
+	{
+		input = key_pageup;
+		qualifiers = key_down;
+	}
+	[close_dialogs]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[collect_loot]
+	{
+		input = key_z;
+		qualifiers = key_down;
+	}
+	[cycle_formations]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[disband_selected]
+	{
+		input = key_d;
+		qualifiers = control | key_down;
+	}
+	[expert_gui_mode]
+	{
+		input = key_w;
+		qualifiers = key_down;
+	}
+	[field_commands]
+	{
+		input = key_f;
+		qualifiers = key_down;
+	}
+	[fight_order_always]
+	{
+		input = key_a;
+		qualifiers = alt | key_down;
+	}
+	[fight_order_back_only]
+	{
+		input = key_s;
+		qualifiers = alt | key_down;
+	}
+	[fight_order_never]
+	{
+		input = key_d;
+		qualifiers = alt | key_down;
+	}
+	[formation_decrease_spacing]
+	{
+		input = key_rbracket;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[formation_increase_spacing]
+	{
+		input = key_lbracket;
+		qualifiers = ignore_buttons | key_down | key_up;
+	}
+	[game_options]
+	{
+		input = key_f10;
+		qualifiers = key_down;
+	}
+	[game_pause]
+	{
+		input = key_pause;
+		qualifiers = key_down;
+	}
+	[game_pause]
+	{
+		input = key_space;
+		qualifiers = key_down;
+	}
+	[game_speed_down]
+	{
+		input = key_minus;
+		qualifiers = control | key_down;
+	}
+	[game_speed_reset]
+	{
+		input = key_back;
+		qualifiers = control | key_down;
+	}
+	[game_speed_up]
+	{
+		input = key_equals;
+		qualifiers = control | key_down;
+	}
+	[get_awp_01]
+	{
+		input = key_1;
+		qualifiers = key_down;
+	}
+	[get_awp_02]
+	{
+		input = key_2;
+		qualifiers = key_down;
+	}
+	[get_awp_03]
+	{
+		input = key_3;
+		qualifiers = key_down;
+	}
+	[get_awp_04]
+	{
+		input = key_4;
+		qualifiers = key_down;
+	}
+	[get_awp_05]
+	{
+		input = key_5;
+		qualifiers = key_down;
+	}
+	[get_awp_06]
+	{
+		input = key_6;
+		qualifiers = key_down;
+	}
+	[get_awp_07]
+	{
+		input = key_7;
+		qualifiers = key_down;
+	}
+	[get_awp_08]
+	{
+		input = key_8;
+		qualifiers = key_down;
+	}
+	[get_awp_09]
+	{
+		input = key_9;
+		qualifiers = key_down;
+	}
+	[get_awp_10]
+	{
+		input = key_0;
+		qualifiers = key_down;
+	}
+	[get_group_1]
+	{
+		input = key_f1;
+		qualifiers = key_down;
+	}
+	[get_group_2]
+	{
+		input = key_f2;
+		qualifiers = key_down;
+	}
+	[get_group_3]
+	{
+		input = key_f3;
+		qualifiers = key_down;
+	}
+	[get_group_4]
+	{
+		input = key_f4;
+		qualifiers = key_down;
+	}
+	[get_group_5]
+	{
+		input = key_f5;
+		qualifiers = key_down;
+	}
+	[get_group_6]
+	{
+		input = key_f6;
+		qualifiers = key_down;
+	}
+	[get_group_7]
+	{
+		input = key_f7;
+		qualifiers = key_down;
+	}
+	[get_group_8]
+	{
+		input = key_f8;
+		qualifiers = key_down;
+	}
+	[guard]
+	{
+		input = key_g;
+		qualifiers = key_down;
+	}
+	[inventory]
+	{
+		input = key_i;
+		qualifiers = key_down;
+	}
+	[load_game]
+	{
+		input = key_l;
+		qualifiers = control | key_down;
+	}
+	[magic]
+	{
+		input = key_b;
+		qualifiers = key_down;
+	}
+	[move]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[move_order_free]
+	{
+		input = key_q;
+		qualifiers = alt | key_down;
+	}
+	[move_order_limited]
+	{
+		input = key_w;
+		qualifiers = alt | key_down;
+	}
+	[move_order_never]
+	{
+		input = key_e;
+		qualifiers = alt | key_down;
+	}
+	[party_heal_body_with_potions]
+	{
+		input = key_h;
+		qualifiers = key_down;
+	}
+	[party_heal_magic_with_potions]
+	{
+		input = key_m;
+		qualifiers = key_down;
+	}
+	[quick_load]
+	{
+		input = key_f11;
+		qualifiers = key_down;
+	}
+	[quick_save]
+	{
+		input = key_f9;
+		qualifiers = key_down;
+	}
+	[rotate_primary_spell_slot]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[rotate_secondary_spell_slot]
+	{
+		input = key_none;
+		qualifiers = ignore_buttons | key_down;
+	}
+	[rotate_selected_slots]
+	{
+		input = key_q;
+		qualifiers = key_down;
+	}
+	[save_game]
+	{
+		input = key_s;
+		qualifiers = control | key_down;
+	}
+	[select_all_party_members]
+	{
+		input = key_a;
+		qualifiers = control | key_down;
+	}
+	[select_all_party_members]
+	{
+		input = key_e;
+		qualifiers = key_down;
+	}
+	[select_last_player]
+	{
+		input = key_comma;
+		qualifiers = key_down;
+	}
+	[select_lead_character]
+	{
+		input = key_slash;
+		qualifiers = key_down;
+	}
+	[select_next_player]
+	{
+		input = key_period;
+		qualifiers = key_down;
+	}
+	[set_awp_01]
+	{
+		input = key_1;
+		qualifiers = control | key_down;
+	}
+	[set_awp_02]
+	{
+		input = key_2;
+		qualifiers = control | key_down;
+	}
+	[set_awp_03]
+	{
+		input = key_3;
+		qualifiers = control | key_down;
+	}
+	[set_awp_04]
+	{
+		input = key_4;
+		qualifiers = control | key_down;
+	}
+	[set_awp_05]
+	{
+		input = key_5;
+		qualifiers = control | key_down;
+	}
+	[set_awp_06]
+	{
+		input = key_6;
+		qualifiers = control | key_down;
+	}
+	[set_awp_07]
+	{
+		input = key_7;
+		qualifiers = control | key_down;
+	}
+	[set_awp_08]
+	{
+		input = key_8;
+		qualifiers = control | key_down;
+	}
+	[set_awp_09]
+	{
+		input = key_9;
+		qualifiers = control | key_down;
+	}
+	[set_awp_10]
+	{
+		input = key_0;
+		qualifiers = control | key_down;
+	}
+	[set_group_1]
+	{
+		input = key_f1;
+		qualifiers = control | key_down;
+	}
+	[set_group_2]
+	{
+		input = key_f2;
+		qualifiers = control | key_down;
+	}
+	[set_group_3]
+	{
+		input = key_f3;
+		qualifiers = control | key_down;
+	}
+	[set_group_4]
+	{
+		input = key_f4;
+		qualifiers = control | key_down;
+	}
+	[set_group_5]
+	{
+		input = key_f5;
+		qualifiers = control | key_down;
+	}
+	[set_group_6]
+	{
+		input = key_f6;
+		qualifiers = control | key_down;
+	}
+	[set_group_7]
+	{
+		input = key_f7;
+		qualifiers = control | key_down;
+	}
+	[set_group_8]
+	{
+		input = key_f8;
+		qualifiers = control | key_down;
+	}
+	[sort_inventory]
+	{
+		input = key_k;
+		qualifiers = key_down;
+	}
+	[stop]
+	{
+		input = key_s;
+		qualifiers = key_down;
+	}
+	[target_closest]
+	{
+		input = key_z;
+		qualifiers = alt | key_down;
+	}
+	[target_strongest]
+	{
+		input = key_x;
+		qualifiers = alt | key_down;
+	}
+	[target_weakest]
+	{
+		input = key_c;
+		qualifiers = alt | key_down;
+	}
+	[toggle_game_timer]
+	{
+		input = key_semicolon;
+		qualifiers = key_down;
+	}
+	[toggle_gui_edit_box]
+	{
+		input = key_return;
+		qualifiers = key_down;
+	}
+	[toggle_gui_edit_box_everyone]
+	{
+		input = key_return;
+		qualifiers = control | key_down;
+	}
+	[toggle_gui_edit_box_team]
+	{
+		input = key_return;
+		qualifiers = shift | key_down;
+	}
+	[toggle_item_labels]
+	{
+		input = key_alt;
+		qualifiers = alt | key_up;
+	}
+	[toggle_mini_map]
+	{
+		input = key_tab;
+		qualifiers = key_down;
+	}
+	[toggle_player_labels]
+	{
+		input = key_l;
+		qualifiers = key_down;
+	}
+	[toggle_player_ranks]
+	{
+		input = key_backslash;
+		qualifiers = key_down | key_up;
+	}
+	[toggle_quest_log]
+	{
+		input = key_j;
+		qualifiers = key_down;
+	}
+	[toggle_status_bars]
+	{
+		input = key_x;
+		qualifiers = key_down;
+	}
+	[tutorial_tips]
+	{
+		input = key_f12;
+		qualifiers = key_down;
+	}
+}

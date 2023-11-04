@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="application/xhtml+xml; charset=UTF-8">
+<!-- #BeginEditable "doctitle" -->
+<title>Untitled 1</title>
+<!-- #EndEditable -->
+<meta name="Author" content="Kube Kubow">
+<link href="../css/ENC.css" rel="stylesheet">
+<!--[if IE]><link rel="stylesheet" type="text/css" href="../css/ie.css" /><![endif]-->
+<script src="../script/jquery.min.js"></script>
+</head>
+
+<body>
+	<section id="prostred" >
+		<div id="obsah" class="circle_obsah"><!-- #BeginEditable "body" --><!-- #EndEditable --></div>
+	</section>
+	
+	<header id="hore">
+		<div id="menu"><h1><a href="../../Pages/800.htm">Hvězdná envyklopedie</a></h1>			
+		<div id="toolkit">aaa</div>
+		</div>
+	</header>
+	
+	<footer id="dole">	
+		<div id="info" >credentials Kube Kubow 2012</div>
+	</footer>
+	
+	<nav id="c600" class="circle">
+		<div class="cpojer-links"><h2><a href="../../Pages/600.htm">Vědy přírody</a></h2>
+		<h3><a href="../../Pages/610.htm">Kvantová teorie</a></h3>
+		<h3><a href="../../Pages/620.htm">Matematika</a></h3>
+		<h3><a href="../../Pages/630.htm">Fyzika</a></h3>
+		<h3><a href="../../Pages/640.htm">Chemie</a></h3>
+		<h3><a href="../../Pages/650.htm">Astronomie</a></h3>
+		<h3><a href="../../Pages/660.htm">Filosofie</a></h3>
+		</div>
+	</nav>
+
+	<nav id="c700" class="circle">
+		<div class="cpojer-links"><h2><a href="../../Pages/700.htm">Lidské technologie</a></h2>
+		<h3><a href="../../Pages/710.htm">Materialy & Návody</a></h3>
+		<h3><a href="../../Pages/720.htm">Nástroje</a></h3>
+		<h3><a href="../../Pages/730.htm">Algoritmy</a></h3>
+		<h3><a href="../../Pages/740.htm">Mapy, Encyklopedie, Báze</a></h3>
+		<h3><a href="../../Pages/750.htm">FInančnictví</a></h3>
+		<h3><a href="../../Pages/760.htm">Elektronika & Stavby</a></h3>
+		<h3><a href="../../Pages/770.htm">Software</a></h3>
+		</div>
+	</nav>
+
+	<nav id="c400" class="circle">
+		<div class="cpojer-links"><h2><a href="../../Pages/400.htm">Příroda</a></h2>
+		<h3><a href="../../Pages/410.htm">Oheň Svetlo</a></h3>
+		<h3><a href="../../Pages/420.htm">Voda</a></h3>
+		<h3><a href="../../Pages/430.htm">Vítr</a></h3>
+		<h3><a href="../../Pages/440.htm">Země</a></h3>
+		</div>
+	</nav>
+
+	<nav id="c500" class="circle">
+		<div class="cpojer-links"><h2><a href="../../Pages/500.htm">Člověk</a></h2>
+		<h3><a href="../../Pages/510.htm">Entita</a></h3>
+		<h3><a href="../../Pages/520.htm">Pohyb</a></h3>
+		<h3><a href="../../Pages/530.htm">Zákony</a></h3>
+		<h3><a href="../../Pages/540.htm">Kultura</a></h3>
+		<h3><a href="../../Pages/550.htm">Magie</a></h3>
+		</div>
+	</nav>
+
+</body>
+</html>
