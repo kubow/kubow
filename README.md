@@ -20,8 +20,6 @@ I have also a set of example applications created in python programming language
 
 - [Browser/Editor to work with JSON/XML files (future release will cover more)](https://github.com/kubow/JSONXML_editor)
 
-  
-
 [![](https://mermaid.ink/img/pako:eNp1UmFr2zAQ_SuHvywBBZJsTVd_c5esLSNbRsrKwF9U6RyLypKRzmtF6X_fuXG6pDBhbHG-9-69u3vOlNeY5dlOOqLSAR8yZBG-dfevL__4IQI-tRgMOoX7FC0Jv_rQSAJYLifr9eQ3n_2_iIqMd7BVR4DLzlht3A44lB6sb1EbCfuTq5mA6WzCz3w6_ShgPkt71Mr9McG7Bh1JC19qbEykkP6HOxtgtyhV3RdbS2KMJKOigE2dIl9AOv2OKo_HRAsQ8CmderlFVTtv_W6IX91sYXSddOhjRrG4NbfRWi46HsS98V0AE54PwLVRwUdfEfyoKqMQIkn1AKM7H7SA1ZNCK6BQCiMr_nVZQBv8LsimeWPO_yk9F_B54N0kqllnVMG01Fs_TpxNBcwOlq7QYWDBPEJ5LyOC8jylliKMeCR9La5MqUX-cIc6RV3A8SnfmYCLgW5bbGB5oGIXVsOojxXbFRtx6bHGgAJufr72_br4XoxPqBYCFgdl3uueimHSJh6aYZmtlVTxpp1an895SxiWiaxBXkOjeYWfe5oy60eOZZbzVWMlO0tlVroXTpUd-W1yKssraSOKrGv7RV7ubQ_Rl7_Cn-y-?type=png)](https://mermaid.live/edit#pako:eNp1UmFr2zAQ_SuHvywBBZJsTVd_c5esLSNbRsrKwF9U6RyLypKRzmtF6X_fuXG6pDBhbHG-9-69u3vOlNeY5dlOOqLSAR8yZBG-dfevL__4IQI-tRgMOoX7FC0Jv_rQSAJYLifr9eQ3n_2_iIqMd7BVR4DLzlht3A44lB6sb1EbCfuTq5mA6WzCz3w6_ShgPkt71Mr9McG7Bh1JC19qbEykkP6HOxtgtyhV3RdbS2KMJKOigE2dIl9AOv2OKo_HRAsQ8CmderlFVTtv_W6IX91sYXSddOhjRrG4NbfRWi46HsS98V0AE54PwLVRwUdfEfyoKqMQIkn1AKM7H7SA1ZNCK6BQCiMr_nVZQBv8LsimeWPO_yk9F_B54N0kqllnVMG01Fs_TpxNBcwOlq7QYWDBPEJ5LyOC8jylliKMeCR9La5MqUX-cIc6RV3A8SnfmYCLgW5bbGB5oGIXVsOojxXbFRtx6bHGgAJufr72_br4XoxPqBYCFgdl3uueimHSJh6aYZmtlVTxpp1an895SxiWiaxBXkOjeYWfe5oy60eOZZbzVWMlO0tlVroXTpUd-W1yKssraSOKrGv7RV7ubQ_Rl7_Cn-y-)
 
 ### You can spot me here:
@@ -76,8 +74,10 @@ I have also a set of example applications created in python programming language
 <a href="" target="_blank">
 	<img align="left" alt="vscode" width="33px" src="https://camo.githubusercontent.com/3913c59c7057f9c9a7f79d63c9753930e69790c8f90fbb375a78686e96165d29/68747470733a2f2f6564656e742e6769746875622e696f2f537570657254696e7949636f6e732f696d616765732f7376672f76697375616c73747564696f636f64652e737667" />
 </a>
-
 <br/>
+
+[A link to my personal site](./personal/index.html)
+
 <!---
 kubow/kubow is a "special" repository because its `README.md` (this file) appears on your GitHub profile.
 You can click the Preview link to take a look at your changes.
