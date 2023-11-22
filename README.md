@@ -4,7 +4,8 @@
 
 Hi, I'm @kubow :gemini:
 
-I am interested in all that stuff thats around. My mainstream public projects (mostly knowledge bases):
+I am interested in all that stuff thats around. Currently working on [GoodData's integrations](https://github.com/kubow?tab=repositories&q=gooddata&type=&language=&sort=) in real life.
+My mainstream public projects (mostly knowledge bases):
 
 - [Star Encyklopedia | H808E (General Knowledge Base)](https://github.com/kubow/h808e)
 - [Concepts related to Programming languages](https://github.com/kubow/prg-concepts)
