@@ -8,6 +8,7 @@
 	:gemini:
 </h2>
 
+![](https://komarev.com/ghpvc/?username=kubow&color=yellow)
 
 I am currently spending the majority of time around [GoodData's integrations](https://github.com/kubow?tab=repositories&q=gooddata&type=&language=&sort=) in real life.
 
