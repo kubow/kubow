@@ -43,6 +43,9 @@ I have recently started collaboration on an [Astrology application](https://gith
 	<a href="https://stackoverflow.com/users/6905166/kube-kubow" target="_blank">
 		<img align="left" alt="kubow | so" src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-ar21.svg" />
 	</a>
+	<a href="https://share.streamlit.io/user/kubow" target="_blank">
+		<img align="left" alt="kubow | streamlit" src="https://docs.streamlit.io/logo.svg" />
+	</a>
 	<a href="https://www.quora.com/profile/Kube-Kubow?q=kubow" target="_blank">
 		<img align="left" alt="kubow | discord" src="https://www.vectorlogo.zone/logos/quora/quora-ar21.svg" />
 	</a>
