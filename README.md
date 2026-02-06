@@ -28,7 +28,7 @@ I have recently started collaboration on an [Astrology application](https://gith
   - [Python planet/moon compute](https://github.com/kubow/PlanetarySystemObserver) (using NASA JPL ephemerides)
   - [Python universal browser/editor ](https://github.com/kubow/JSONXML_editor) (currently JSON, XML and CSV files)
 
-## You can spot me here
+## My presence is being felt here
 
 <div style="display: flex;flex-wrap: wrap;width: 100%;">
 	<a href="https://github.com/kubow" target="_blank">
@@ -52,110 +52,67 @@ I have recently started collaboration on an [Astrology application](https://gith
 	<a href="https://www.reddit.com/user/kubowww" target="_blank">
 		<img align="left" alt="kubow | reddit" src="https://www.vectorlogo.zone/logos/reddit/reddit-ar21.svg" />
 	</a>
-</div>
-
-
-## Visual representation of my skill set
-
-
-### Application Development
-
-
-<div style="display: flex;flex-wrap: wrap;width: 100%;">
-	<a href="" target="_blank">
-		<img align="left" alt="linux" src="https://www.vectorlogo.zone/logos/linux/linux-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="windows" src="https://gnss-sdr.org/assets/images/logo-windows.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="android" src="https://www.vectorlogo.zone/logos/android/android-ar21.svg" />
-	</a>
-	<a href="https://www.python.org/" target="_blank">
-		<img align="left" alt="python" src="https://www.vectorlogo.zone/logos/python/python-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="javascript" src="https://www.vectorlogo.zone/logos/javascript/javascript-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="svelte" src="https://www.vectorlogo.zone/logos/sveltetechnology/sveltetechnology-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="vue" src="https://www.vectorlogo.zone/logos/vuejs/vuejs-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="react" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="flask" src="https://www.vectorlogo.zone/logos/pocoo_flask/pocoo_flask-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="streamlit" width="100px" src="https://upload.vectorlogo.zone/logos/streamlitio/images/1548df31-a8e4-409b-a034-f2ddaa80670a.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="html5" src="https://www.vectorlogo.zone/logos/w3_html5/w3_html5-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="css" src="https://www.vectorlogo.zone/logos/w3_css/w3_css-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="tailwind" src="https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-ar21.svg" />
+	<a href="https://www.deviantart.com/kube-kubow" target="_blank">
+		<img align="left" alt="kubow | deviantart" width="100px" src="https://logos-world.net/wp-content/uploads/2020/11/DeviantArt-Logo-700x394.png" />
 	</a>
 </div>
 
 
-### Data Related stack
+## Visual representation of my technology skill set
 
+```mermaid
+radar-beta
+  title Frontend Technologies
+  axis HTML5["🟠 HTML5"], CSS["🎨 CSS"], JavaScript["🟡 JavaScript"], TypeScript["🔷 TypeScript"], React["⚛️ React"], Vue["💚 Vue"], Svelte["🔴 Svelte"], Tailwind["🎨 Tailwind"], Flask["🧪 Flask"], Streamlit["📊 Streamlit"]
+  curve Skills{80, 60, 65, 45, 60, 60, 70, 50, 65, 70}
+  max 100
+  min 0
+  graticule circle
+  ticks 5
+```
 
-<div style="display: flex;flex-wrap: wrap;width: 100%;">
-	<a href="" target="_blank">
-		<img align="sqlite" alt="sqlite" src="https://www.vectorlogo.zone/logos/sqlite/sqlite-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="pgsql" src="https://www.vectorlogo.zone/logos/postgresql/postgresql-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="duckdb" src="https://docs.lakefs.io/assets/img/logos/duckdb.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="sap" src="https://www.vectorlogo.zone/logos/sap/sap-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="gooddata" src="https://www.gooddata.com/img/generic/logo-gd-b.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="powerbi" width="50px" src="https://wearemercury.com/wp-content/uploads/2021/10/1200px-New_Power_BI_Logo.svg-150x150.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="jupyter" src="https://www.vectorlogo.zone/logos/jupyter/jupyter-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="" src=https://www.prodocast.com/media/uploads/icons/Power%20BI/Power_BI_logo.png" />
-	</a>
-</div>
+```mermaid
+radar-beta
+  title Backend Languages
+  axis LinuxShell["🐧 Linux Shell"], WindowsShell["🪟 Windows Shell"], Python["🐍 Python"], Rust["🦀 Rust"], JavaBased["☕ Java Based"], CBased["⚙️ C Based"]
+  curve Skills{65, 75, 70, 40, 25, 20}
+  max 100
+  min 0
+  graticule circle
+  ticks 5
+```
 
+**Note 1:** Category Linux Shell contains experience with sh, zsh, bash and various tools (like sed, grep, ...)
+
+**Note 2:** Category Windows Shell contains experience with bat, powershell, vbscrips
+
+```mermaid
+radar-beta
+  title Data Related Stack
+  axis SQLite["🗄️ SQLite"], PostgreSQL["🐘 PostgreSQL"], DuckDB["🦆 DuckDB"], SAP["💼 SAP"], Oracle["🏛️ Oracle"], Microsoft["🪟 Microsoft"], Snowflake["❄️ Snowflake"], Databricks["💎 Databricks"], Analytics["📊 Analytics"], DataPipeline["🔄 Data Pipeline"], DataModelling["📐 Data Modelling"]
+  curve Skills{85, 80, 75, 50, 40, 65, 70, 65, 90, 80, 70}
+  max 100
+  min 0
+  graticule circle
+  ticks 5
+```
+
+**Note:** This category contains these tools: SQLite, PostgreSQL, DuckDB, SAP, Oracle, Microsoft, Snowflake, Databricks, Analytics (GoodData, PowerBI), Data Pipeline (airflow, n8n, dbt, dlt, etc.), Data Modelling (erwin, powerdesigner)
 
 ### Map related
 
+```mermaid
+radar-beta
+  title Map Related
+  axis ArcGIS["🌍 ArcGIS"], OSGeo["🌐 OSGeo"], QGIS["🗺️ QGIS"], DHIMIKE["🌊 DHI MIKE"], EpaNET["💧 EpaNET"], MapServices["🗺️ Map Services"], EmbeddedMaps["📍 Embedded Maps"], CAD["📐 CAD"]
+  curve Skills{75, 70, 80, 85, 85, 70, 70, 50}
+  max 100
+  min 0
+  graticule circle
+  ticks 5
+```
 
-<div style="display: flex;flex-wrap: wrap;width: 100%;">
-	<a href="" target="_blank">
-		<img align="left" alt="openlayers" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/67/OpenLayers_logo.svg/100px-OpenLayers_logo.svg.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="leaflet" src="https://www.victoryinfotech.com/wp-content/uploads/2021/08/Leaflet-js-services-in-victory-infotech.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="arcgis" src="https://www.arcgis.com/about/graphics/logo-arcgis.png" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="mapbox" src="https://www.vectorlogo.zone/logos/mapbox/mapbox-ar21.svg" />
-	</a>
-	<a href="" target="_blank">
-		<img align="left" alt="qgis" src="https://www.vectorlogo.zone/logos/qgis/qgis-ar21.svg" />
-	</a>
-</div>
-
+**Note:** This category contains these tools: ArcGIS, OSGeo, QGIS, DHI MIKE, EpaNET, Map Services (mapbox, maplibre, osm), Embedded Maps (OpenLayers, leaflet, D3), CAD
 
 ## Record of technologies achieved
 
