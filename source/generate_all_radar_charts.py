@@ -21,54 +21,65 @@ import requests
 from io import BytesIO
 import os
 
-# Define all chart data with icon URLs - customize values (0-100 scale) as needed
+# Define all chart data matching Mermaid charts from README.md
 charts_data = {
     'frontend': {
         'title': 'Frontend Technologies',
         'filename': 'radar_chart_frontend',
         'data': {
-            'HTML5': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
-            'CSS': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
-            'JavaScript': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
-            'TypeScript': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
-            'React': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
-            'Vue': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
-            'Svelte': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg'},
-            'Tailwind': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg'}
+            'HTML5': {'value': 80, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg'},
+            'CSS': {'value': 60, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg'},
+            'JavaScript': {'value': 65, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
+            'TypeScript': {'value': 45, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg'},
+            'React': {'value': 60, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg'},
+            'Vue': {'value': 60, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg'},
+            'Svelte': {'value': 70, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg'},
+            'Tailwind': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg'},
+            'Flask': {'value': 65, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg'},
+            'Streamlit': {'value': 70, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg'}
         }
     },
     'backend': {
         'title': 'Backend Languages',
         'filename': 'radar_chart_backend',
         'data': {
-            'Python': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
-            'JavaScript': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg'},
-            'Flask': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg'},
-            'Streamlit': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg'}
+            'Linux Shell': {'value': 65, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg'},
+            'Windows Shell': {'value': 75, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg'},
+            'Python': {'value': 70, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg'},
+            'Rust': {'value': 40, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg'},
+            'Java Based': {'value': 25, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg'},
+            'C Based': {'value': 20, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg'}
         }
     },
     'data': {
         'title': 'Data Related Stack',
         'filename': 'radar_chart_data',
         'data': {
-            'SQLite': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg'},
-            'PostgreSQL': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'},
-            'DuckDB': {'value': 50, 'icon': 'https://duckdb.org/images/duckdb_logo_icon.svg'},
-            'SAP': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sap/sap-original.svg'},
-            'GoodData': {'value': 50, 'icon': 'https://www.gooddata.com/img/generic/logo-gd-b.svg'},
-            'PowerBI': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/powerbi/powerbi-original.svg'},
-            'Jupyter': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg'}
+            'SQLite': {'value': 85, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg'},
+            'PostgreSQL': {'value': 80, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg'},
+            'DuckDB': {'value': 75, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/duckdb.svg'},
+            'SAP': {'value': 50, 'icon': 'https://www.vectorlogo.zone/logos/sap/sap-ar21.svg'},
+            'Oracle': {'value': 40, 'icon': 'https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg'},
+            'Microsoft': {'value': 65, 'icon': 'https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg'},
+            'Snowflake': {'value': 70, 'icon': 'https://www.vectorlogo.zone/logos/snowflake/snowflake-ar21.svg'},
+            'Databricks': {'value': 65, 'icon': 'https://www.vectorlogo.zone/logos/databricks/databricks-ar21.svg'},
+            'Analytics': {'value': 90, 'icon': 'https://www.gooddata.com/img/generic/logo-gd-b.svg'},
+            'Data Pipeline': {'value': 80, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg'},
+            'Data Modelling': {'value': 70, 'icon': None}
         }
     },
     'map': {
         'title': 'Map Related',
         'filename': 'radar_chart_map',
         'data': {
-            'OpenLayers': {'value': 50, 'icon': 'https://openlayers.org/theme/img/logo-70x70.png'},
-            'Leaflet': {'value': 50, 'icon': 'https://leafletjs.com/docs/images/logo.png'},
-            'ArcGIS': {'value': 50, 'icon': 'https://www.arcgis.com/about/graphics/logo-arcgis.png'},
-            'Mapbox': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mapbox/mapbox-original.svg'},
-            'QGIS': {'value': 50, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/qgis/qgis-original.svg'}
+            'ArcGIS': {'value': 75, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arcgis.svg'},
+            'OSGeo': {'value': 70, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/osgeo.svg'},
+            'QGIS': {'value': 80, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/qgis.svg'},
+            'DHI MIKE': {'value': 85, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg'},
+            'EpaNET': {'value': 85, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg'},
+            'Map Services': {'value': 70, 'icon': 'https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mapbox/mapbox-original.svg'},
+            'Embedded Maps': {'value': 70, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openstreetmap.svg'},
+            'CAD': {'value': 50, 'icon': 'https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/autodesk.svg'}
         }
     }
 }
@@ -143,60 +154,62 @@ def generate_radar_chart(data, title, filename):
     ax.plot(angles, values, '-', linewidth=2, color='steelblue')
     ax.fill(angles, values, alpha=0.3, color='steelblue')
     
-    # Remove text labels - we'll use icons instead
+    # Set text labels for each category - but don't display them (we use icons/text at end of radials)
     ax.set_xticks(angles[:-1])
-    ax.set_xticklabels([])  # Remove text labels
+    ax.set_xticklabels([])  # Remove degree/angle labels at outside border
     
-    # Set y-axis limits and labels - increase to make room for larger icons
-    max_value = max(values[:-1]) if values else 100
-    ax.set_ylim(0, max(120, max_value + 30))  # Extra space for icons
+    # Set y-axis limits to max at 110 (where icons are positioned)
+    ax.set_ylim(0, 110)
     ax.set_yticks([20, 40, 60, 80, 100])
     ax.set_yticklabels(['20', '40', '60', '80', '100'], fontsize=9)
     ax.grid(True, linestyle='--', linewidth=0.5)
     
-    # Add icons at the end of each radial line (at the value position)
-    icon_size = 80  # Much larger icons
-    icon_values = values[:-1]  # Get values without the closing point
-    
-    for i, (category, angle, value) in enumerate(zip(categories, angles[:-1], icon_values)):
-        if icons[category]:
-            try:
-                icon_img = load_icon_from_url(icons[category], size=icon_size)
-                # Convert to image for OffsetImage
-                icon_img_pil = Image.fromarray(icon_img)
-                
-                # Create offset image - larger zoom for bigger icons
-                imagebox = OffsetImage(icon_img_pil, zoom=0.8)
-                
-                # Calculate the position slightly beyond the value to place icon at the end of radial line
-                icon_radius = value + 10  # Offset to place icon just beyond the data point
-                
-                # For polar plots, use the polar coordinate system directly
-                # The issue is that AnnotationBbox doesn't perfectly center on polar axes
-                # We'll use polar coordinates and rely on box_alignment
-                ab = AnnotationBbox(imagebox, (angle, icon_radius), 
-                                    xycoords=('polar', 'data'),
-                                    frameon=False, pad=0,
-                                    box_alignment=(0.5, 0.5))
-                ax.add_artist(ab)
-                
-                # Also draw a small marker at the exact data point to help with alignment
-                ax.plot([angle], [value], 'o', color='steelblue', markersize=4, zorder=5)
-            except Exception as e:
-                print(f"Warning: Could not add icon for {category}: {e}")
-                # Fallback to text if icon fails
-                ax.text(angle, value, category[:8], ha='center', va='center',
-                       fontsize=8, fontweight='bold')
-        else:
-            # Fallback to text if no icon URL
-            ax.text(angle, value, category[:8], ha='center', va='center',
-                   fontsize=8, fontweight='bold')
-    
     # Add title
     plt.title(title, size=16, fontweight='bold', pad=30)
     
-    # Save as SVG only
+    # Add text labels first (these work reliably with polar coordinates)
+    icon_values = values[:-1]  # Get values without the closing point
+    
+    for i, (category, angle, value) in enumerate(zip(categories, angles[:-1], icon_values)):
+        # Position slightly beyond the data point value
+        label_radius = value + 15  # Offset to place label at end of radial
+        
+        # Add text label at the end of the radial line
+        ax.text(angle, label_radius, category, 
+               ha='center', va='center',
+               fontsize=9, fontweight='bold',
+               bbox=dict(boxstyle='round,pad=0.3', facecolor='white', alpha=0.8, edgecolor='none'))
+    
+    # Draw the plot to ensure transforms are ready
     plt.tight_layout()
+    fig.canvas.draw()
+    
+    # Now add icons - they need the plot to be drawn first for correct transforms
+    for i, (category, angle, value) in enumerate(zip(categories, angles[:-1], icon_values)):
+        icon_radius = 110   # Position icon at radius=110 on each radial
+        
+        # Add icon if available - position it on the radial line
+        if icons[category]:
+            try:
+                icon_img = load_icon_from_url(icons[category], size=60)  # Half size (60px)
+                icon_img_pil = Image.fromarray(icon_img)
+                
+                # Create offset image
+                zoom_factor = 0.5  # Half zoom to match half size
+                imagebox = OffsetImage(icon_img_pil, zoom=zoom_factor)
+                
+                # For polar plots, transData expects polar coordinates (angle, radius)
+                # NOT cartesian! Use angle and radius directly like ax.text does
+                ab = AnnotationBbox(imagebox, (angle, icon_radius),
+                                    xycoords=ax.transData,
+                                    frameon=False, pad=0,
+                                    box_alignment=(0.5, 0.5),
+                                    zorder=10)  # Ensure icons are on top
+                ax.add_artist(ab)
+            except Exception as e:
+                print(f"Warning: Could not add icon for {category}: {e}")
+    
+    # Save as SVG only
     svg_path = f'{filename}.svg'
     plt.savefig(svg_path, format='svg', bbox_inches='tight', facecolor='white')
     plt.close()  # Close the figure to free memory
