@@ -1,0 +1,43 @@
+title: "Kube Kubow's experience"
+dateFormat: "DD-MM-YYYY"
+sections:
+  - name: "Science"
+    items:
+      - label: "Building encyklopedia"
+        start: "01-01-2003"
+        current: true
+        criteria: "c1"
+      - label: "Environmental Chemistry"
+        start: "01-01-2003"
+        duration: "10y"
+        criteria: "c1"
+      - label: "Mathematics, Physics and Chemistry"
+        start: "01-01-2006"
+        duration: "6y"
+        criteria: "s1"
+  - name: "Technology"
+    items:
+      - label: "GIS (Hydrological Modelling)"
+        start: "01-01-2009"
+        duration: "7y"
+      - label: "Microsoft stack (Word, Excel, Access, VBA, MSSQL, PowerBI)"
+        start: "01-01-2007"
+        current: true
+      - label: "Linux stack (bash, zsh, ssh, docker, git)"
+        start: "01-01-2015"
+        current: true
+      - label: "Python scripting"
+        start: "01-01-2010"
+        current: true
+      - label: "General database concepts (diagrams, types, structure)"
+        start: "01-01-2015"
+        current: true
+      - label: "SAP (ASE, Anywhere, IQ and HANA)"
+        start: "01-01-2016"
+        duration: "7y"
+      - label: "GoodData Analytics"
+        start: "01-01-2022"
+        current: true
+      - label: "Frontend (HTML, CSS, JavaScript, React, Vue)"
+        start: "01-01-2018"
+        current: true

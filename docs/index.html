@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kube Kubow - Portfolio</title>
+    <!-- Use a nice font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    </script>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --link-color: #58a6ff;
+            --border-color: #30363d;
+            --card-bg: #161b22;
+        }
+        
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .stats-img {
+            margin: 2rem 0;
+        }
+        
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 4rem;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1.5rem;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h3 {
+            margin-top: 0;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .radar-charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        
+        .radar-chart img {
+            max-width: 100%;
+            height: auto;
+            background-color: white; /* Charts are designed for white bg currently */
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        .skill-notes {
+            text-align: left;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .note {
+            margin: 0.2rem 0;
+            color: #8b949e;
+        }
+        
+        .note strong {
+            color: #c9d1d9;
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .footer-links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Kube Kubow</h1>
+            <div class="bio">
+                <p>I am currently spending the majority of my time around <a href="https://github.com/kubow?tab=repositories&amp;q=gooddata&amp;type=&amp;language=&amp;sort=">GoodData's integrations</a> with various types of systems.</p>
+<p>I have recently started collaboration on an <a href="https://github.com/kefer-astrology">Astrology application</a>.</p>
+            </div>
+            
+            <div class="stats-img">
+                <img src="https://komarev.com/ghpvc/?username=kubow&color=yellow" alt="GitHub Stats">
+            </div>
+            
+            <div class="social-links">
+                
+                <a href="https://github.com/kubow" target="_blank" title="GitHub">
+                    <img src="https://www.vectorlogo.zone/logos/github/github-ar21.svg" alt="GitHub" height="30">
+                </a>
+                
+                <a href="https://app.slack.com/" target="_blank" title="Slack">
+                    <img src="https://www.vectorlogo.zone/logos/slack/slack-ar21.svg" alt="Slack" height="30">
+                </a>
+                
+                <a href="https://discord.com/channels/@me" target="_blank" title="Discord">
+                    <img src="https://www.vectorlogo.zone/logos/discord/discord-ar21.svg" alt="Discord" height="30">
+                </a>
+                
+                <a href="https://stackoverflow.com/users/6905166/kube-kubow" target="_blank" title="StackOverflow">
+                    <img src="https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-ar21.svg" alt="StackOverflow" height="30">
+                </a>
+                
+                <a href="https://share.streamlit.io/user/kubow" target="_blank" title="Streamlit">
+                    <img src="https://docs.streamlit.io/logo.svg" alt="Streamlit" height="30">
+                </a>
+                
+                <a href="https://www.quora.com/profile/Kube-Kubow?q=kubow" target="_blank" title="Quora">
+                    <img src="https://www.vectorlogo.zone/logos/quora/quora-ar21.svg" alt="Quora" height="30">
+                </a>
+                
+                <a href="https://www.reddit.com/user/kubowww" target="_blank" title="Reddit">
+                    <img src="https://www.vectorlogo.zone/logos/reddit/reddit-ar21.svg" alt="Reddit" height="30">
+                </a>
+                
+                <a href="https://www.deviantart.com/kube-kubow" target="_blank" title="DeviantArt">
+                    <img src="https://logos-world.net/wp-content/uploads/2020/11/DeviantArt-Logo-700x394.png" alt="DeviantArt" height="30">
+                </a>
+                
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>🚀 Projects</h2>
+            
+            
+            <div class="project-group">
+                <h3>Star Encyclopedia</h3>
+                <p>Summarizing all things around us 🌅</p>
+                
+                <div class="projects-grid">
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/arms">ARMs: various machines description</a></h4>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/datastore">Data storing techniques</a></h4>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/map-model">Mapping / GIS</a></h4>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/Productivity">Productivity</a></h4>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/prg-concepts">Programming languages</a></h4>
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+            
+            <div class="project-group">
+                <h3>Small Applications</h3>
+                <p>Small applications with specific usage</p>
+                
+                <div class="projects-grid">
+                    
+                    
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/Sybase_Collector">Python database logs reader</a></h4>
+                        <p>mostly SAP, Microsoft, Oracle...</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/EpaNET-TKinter-GUI">Python EpaNET simple GUI</a></h4>
+                        <p>I plan to interconnect with Mike0/dfs</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/vcf_editor">Python contacts editor</a></h4>
+                        <p>those ancient VCards</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/PlanetarySystemObserver">Python planet/moon compute</a></h4>
+                        <p>using NASA JPL ephemerides</p>
+                    </div>
+                    
+                    <div class="card">
+                        <h4><a href="https://github.com/kubow/JSONXML_editor">Python universal browser/editor</a></h4>
+                        <p>currently JSON, XML and CSV files</p>
+                    </div>
+                    
+                </div>
+            </div>
+            
+        </section>
+        
+        <section class="section">
+            <h2>🛠️ Skills</h2>
+            <div class="radar-charts">
+                
+                <div class="radar-chart">
+                    <h3>Frontend</h3>
+                    <img src="assets/radar_chart_frontend.svg" alt="Frontend Technologies">
+                    
+                    
+                    <div class="skill-notes">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="radar-chart">
+                    <h3>Backend</h3>
+                    <img src="assets/radar_chart_backend.svg" alt="Backend Languages">
+                    
+                    
+                    <div class="skill-notes">
+                        
+                        
+                        <p class="note"><strong>Linux Shell:</strong> sh, zsh, bash and various tools (like sed, grep, ...)</p>
+                        
+                        
+                        
+                        <p class="note"><strong>Windows Shell:</strong> bat, powershell, vbscrips</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="radar-chart">
+                    <h3>Data</h3>
+                    <img src="assets/radar_chart_data.svg" alt="Data Related Stack">
+                    
+                    
+                    <div class="skill-notes">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <p class="note"><strong>SAP:</strong> ASE, Anywhere, IQ and HANA</p>
+                        
+                        
+                        
+                        
+                        
+                        <p class="note"><strong>Microsoft:</strong> MSSQL, Access, VBA, PowerBI</p>
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <p class="note"><strong>Analytics:</strong> GoodData, PowerBI</p>
+                        
+                        
+                        
+                        <p class="note"><strong>Data Pipeline:</strong> airflow, n8n, dbt, dlt, etc.</p>
+                        
+                        
+                        
+                        <p class="note"><strong>Data Modelling:</strong> erwin, powerdesigner</p>
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+                <div class="radar-chart">
+                    <h3>Map</h3>
+                    <img src="assets/radar_chart_map.svg" alt="Map Related">
+                    
+                    
+                    <div class="skill-notes">
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        
+                        <p class="note"><strong>Map Services:</strong> mapbox, maplibre, osm</p>
+                        
+                        
+                        
+                        <p class="note"><strong>Embedded Maps:</strong> OpenLayers, leaflet, D3</p>
+                        
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🧪 Experience</h2>
+            <div class="mermaid">
+                gantt
+                    title Kube Kubow's experience
+                    dateFormat  DD-MM-YYYY
+                    axisFormat %Y
+                    
+                    section Science
+                    
+                    Building encyklopedia : c1, 01-01-2003, 08-02-2026
+                    
+                    Environmental Chemistry : c1, 01-01-2003, 10y
+                    
+                    Mathematics, Physics and Chemistry : s1, 01-01-2006, 6y
+                    
+                    
+                    section Technology
+                    
+                    GIS (Hydrological Modelling) : 01-01-2009, 7y
+                    
+                    Microsoft stack (Word, Excel, Access, VBA, MSSQL, PowerBI) : 01-01-2007, 08-02-2026
+                    
+                    Linux stack (bash, zsh, ssh, docker, git) : 01-01-2015, 08-02-2026
+                    
+                    Python scripting : 01-01-2010, 08-02-2026
+                    
+                    General database concepts (diagrams, types, structure) : 01-01-2015, 08-02-2026
+                    
+                    SAP (ASE, Anywhere, IQ and HANA) : 01-01-2016, 7y
+                    
+                    GoodData Analytics : 01-01-2022, 08-02-2026
+                    
+                    Frontend (HTML, CSS, JavaScript, React, Vue) : 01-01-2018, 08-02-2026
+                    
+                    
+            </div>
+        </section>
+
+        <footer>
+            <p style="text-align: center; color: #666; font-size: 0.8rem;">
+                Generated automatically by update-bio workflow.
+            </p>
+            <div class="footer-links">
+                <a href="archive/personal/index.html">Personal Archive</a>
+                <a href="zahr/index.htm">Zahr Index</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+matplotlib
+numpy
+pillow
+requests
+cairosvg
+pyyaml
+jinja2

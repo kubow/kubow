@@ -1,0 +1,44 @@
+name: "Kube Kubow"
+github_username: "kubow"
+bio: |
+  I am currently spending the majority of my time around [GoodData's integrations](https://github.com/kubow?tab=repositories&q=gooddata&type=&language=&sort=) with various types of systems.
+
+  
+  I have recently started collaboration on an [Astrology application](https://github.com/kefer-astrology).
+
+stats_image: "https://komarev.com/ghpvc/?username=kubow&color=yellow"
+
+social_links:
+  - platform: GitHub
+    url: "https://github.com/kubow"
+    icon: "https://www.vectorlogo.zone/logos/github/github-ar21.svg"
+    align: "left"
+  - platform: Slack
+    url: "https://app.slack.com/"
+    icon: "https://www.vectorlogo.zone/logos/slack/slack-ar21.svg"
+    align: "left"
+  - platform: Discord
+    url: "https://discord.com/channels/@me"
+    icon: "https://www.vectorlogo.zone/logos/discord/discord-ar21.svg"
+    align: "left"
+  - platform: StackOverflow
+    url: "https://stackoverflow.com/users/6905166/kube-kubow"
+    icon: "https://www.vectorlogo.zone/logos/stackoverflow/stackoverflow-ar21.svg"
+    align: "left"
+  - platform: Streamlit
+    url: "https://share.streamlit.io/user/kubow"
+    icon: "https://docs.streamlit.io/logo.svg"
+    align: "left"
+  - platform: Quora
+    url: "https://www.quora.com/profile/Kube-Kubow?q=kubow"
+    icon: "https://www.vectorlogo.zone/logos/quora/quora-ar21.svg"
+    align: "left"
+  - platform: Reddit
+    url: "https://www.reddit.com/user/kubowww"
+    icon: "https://www.vectorlogo.zone/logos/reddit/reddit-ar21.svg"
+    align: "left"
+  - platform: DeviantArt
+    url: "https://www.deviantart.com/kube-kubow"
+    icon: "https://logos-world.net/wp-content/uploads/2020/11/DeviantArt-Logo-700x394.png"
+    width: "100px"
+    align: "left"

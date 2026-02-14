@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ profile.name }} - Portfolio</title>
+    <!-- Use a nice font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <script type="module">
+        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
+        mermaid.initialize({ startOnLoad: true, theme: 'dark' });
+    </script>
+    <style>
+        :root {
+            --bg-color: #0d1117;
+            --text-color: #c9d1d9;
+            --link-color: #58a6ff;
+            --border-color: #30363d;
+            --card-bg: #161b22;
+        }
+        
+        body {
+            font-family: 'Space Grotesk', sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+        }
+        
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+        
+        header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+        
+        .stats-img {
+            margin: 2rem 0;
+        }
+        
+        h1, h2, h3 {
+            color: #ffffff;
+        }
+        
+        a {
+            color: var(--link-color);
+            text-decoration: none;
+        }
+        
+        a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 4rem;
+        }
+        
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1.5rem;
+            transition: transform 0.2s;
+        }
+        
+        .card:hover {
+            transform: translateY(-5px);
+        }
+        
+        .card h3 {
+            margin-top: 0;
+        }
+        
+        .social-links {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin: 2rem 0;
+        }
+        
+        .radar-charts {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            text-align: center;
+        }
+        
+        .radar-chart img {
+            max-width: 100%;
+            height: auto;
+            background-color: white; /* Charts are designed for white bg currently */
+            border-radius: 12px;
+            padding: 10px;
+        }
+
+        .skill-notes {
+            text-align: left;
+            margin-top: 1rem;
+            font-size: 0.9rem;
+            background: rgba(255, 255, 255, 0.05);
+            padding: 10px;
+            border-radius: 8px;
+        }
+
+        .note {
+            margin: 0.2rem 0;
+            color: #8b949e;
+        }
+        
+        .note strong {
+            color: #c9d1d9;
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+        }
+        
+        .footer-links {
+            text-align: center;
+            margin-top: 1rem;
+        }
+        
+        .footer-links a {
+            margin: 0 1rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>{{ profile.name }}</h1>
+            <div class="bio">
+                {{ profile.bio | markdown | safe }}
+            </div>
+            
+            <div class="stats-img">
+                <img src="{{ profile.stats_image }}" alt="GitHub Stats">
+            </div>
+            
+            <div class="social-links">
+                {% for social in profile.social_links %}
+                <a href="{{ social.url }}" target="_blank" title="{{ social.platform }}">
+                    <img src="{{ social.icon }}" alt="{{ social.platform }}" height="30">
+                </a>
+                {% endfor %}
+            </div>
+        </header>
+        
+        <section class="section">
+            <h2>🚀 Projects</h2>
+            
+            {% for group in projects %}
+            <div class="project-group">
+                <h3>{{ group.category }}</h3>
+                <p>{{ group.description }}</p>
+                
+                <div class="projects-grid">
+                    {% for sub in group.get('sub_projects', []) %}
+                    <div class="card">
+                        <h4><a href="{{ sub.url }}">{{ sub.name }}</a></h4>
+                    </div>
+                    {% endfor %}
+                    
+                    {% for item in group.get('items', []) %}
+                    <div class="card">
+                        <h4><a href="{{ item.url }}">{{ item.name }}</a></h4>
+                        <p>{{ item.description }}</p>
+                    </div>
+                    {% endfor %}
+                </div>
+            </div>
+            {% endfor %}
+        </section>
+        
+        <section class="section">
+            <h2>🛠️ Skills</h2>
+            <div class="radar-charts">
+                {% for key, group in skills.items() %}
+                <div class="radar-chart">
+                    <h3>{{ group.title.replace(' Technologies', '').replace(' Languages', '').replace(' Related Stack', '').replace(' Related', '') }}</h3>
+                    <img src="assets/{{ group.filename }}.svg" alt="{{ group.title }}">
+                    
+                    {% if group.get('items') %}
+                    <div class="skill-notes">
+                        {% for item in group['items'] %}
+                        {% if item.note %}
+                        <p class="note"><strong>{{ item.name }}:</strong> {{ item.note }}</p>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                    {% endif %}
+                </div>
+                {% endfor %}
+            </div>
+        </section>
+
+        <section class="section">
+            <h2>🧪 Experience</h2>
+            <div class="mermaid">
+                gantt
+                    title {{ experience.title }}
+                    dateFormat  {{ experience.dateFormat }}
+                    axisFormat %Y
+                    {% for section in experience.sections %}
+                    section {{ section.name }}
+                    {% for item in section['items'] %}
+                    {{ item.label }} : {{ item.data }}
+                    {% endfor %}
+                    {% endfor %}
+            </div>
+        </section>
+
+        <footer>
+            <p style="text-align: center; color: #666; font-size: 0.8rem;">
+                Generated automatically by update-bio workflow.
+            </p>
+            <div class="footer-links">
+                <a href="archive/personal/index.html">Personal Archive</a>
+                <a href="archive/zahr/index.htm">Zahr Index</a>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,132 @@
+frontend:
+  title: "Frontend Technologies"
+  filename: "radar_chart_frontend"
+  items:
+    - name: "HTML5"
+      value: 80
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg"
+    - name: "CSS"
+      value: 60
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg"
+    - name: "JavaScript"
+      value: 65
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+    - name: "TypeScript"
+      value: 45
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg"
+    - name: "React"
+      value: 60
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+    - name: "Vue"
+      value: 60
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
+    - name: "Svelte"
+      value: 70
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/svelte/svelte-original.svg"
+    - name: "Tailwind"
+      value: 50
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg"
+    - name: "Flask"
+      value: 65
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg"
+    - name: "Streamlit"
+      value: 70
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/streamlit/streamlit-original.svg"
+
+backend:
+  title: "Backend Languages"
+  filename: "radar_chart_backend"
+  items:
+    - name: "Linux Shell"
+      value: 65
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg"
+      note: "sh, zsh, bash and various tools (like sed, grep, ...)"
+    - name: "Windows Shell"
+      value: 75
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/windows8/windows8-original.svg"
+      note: "bat, powershell, vbscrips"
+    - name: "Python"
+      value: 70
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+    - name: "Rust"
+      value: 40
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/rust/rust-original.svg"
+    - name: "Java Based"
+      value: 25
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg"
+    - name: "C Based"
+      value: 20
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg"
+
+data:
+  title: "Data Related Stack"
+  filename: "radar_chart_data"
+  items:
+    - name: "SQLite"
+      value: 85
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sqlite/sqlite-original.svg"
+    - name: "PostgreSQL"
+      value: 80
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg"
+    - name: "DuckDB"
+      value: 75
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/duckdb.svg"
+    - name: "SAP"
+      value: 50
+      icon: "https://www.vectorlogo.zone/logos/sap/sap-ar21.svg"
+      note: "ASE, Anywhere, IQ and HANA"
+    - name: "Oracle"
+      value: 40
+      icon: "https://www.vectorlogo.zone/logos/oracle/oracle-ar21.svg"
+    - name: "Microsoft"
+      value: 65
+      icon: "https://www.vectorlogo.zone/logos/microsoft/microsoft-ar21.svg"
+      note: "MSSQL, Access, VBA, PowerBI"
+    - name: "Snowflake"
+      value: 70
+      icon: "https://www.vectorlogo.zone/logos/snowflake/snowflake-ar21.svg"
+    - name: "Databricks"
+      value: 65
+      icon: "https://www.vectorlogo.zone/logos/databricks/databricks-ar21.svg"
+    - name: "Analytics"
+      value: 90
+      icon: "https://www.gooddata.com/img/generic/logo-gd-b.svg"
+      note: "GoodData, PowerBI"
+    - name: "Data Pipeline"
+      value: 80
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apacheairflow/apacheairflow-original.svg"
+      note: "airflow, n8n, dbt, dlt, etc."
+    - name: "Data Modelling"
+      value: 70
+      note: "erwin, powerdesigner"
+
+map:
+  title: "Map Related"
+  filename: "radar_chart_map"
+  items:
+    - name: "ArcGIS"
+      value: 75
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/arcgis.svg"
+    - name: "OSGeo"
+      value: 70
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/osgeo.svg"
+    - name: "QGIS"
+      value: 80
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/qgis.svg"
+    - name: "DHI MIKE"
+      value: 85
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg"
+    - name: "EpaNET"
+      value: 85
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
+    - name: "Map Services"
+      value: 70
+      icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mapbox/mapbox-original.svg"
+      note: "mapbox, maplibre, osm"
+    - name: "Embedded Maps"
+      value: 70
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/openstreetmap.svg"
+      note: "OpenLayers, leaflet, D3"
+    - name: "CAD"
+      value: 50
+      icon: "https://raw.githubusercontent.com/simple-icons/simple-icons/develop/icons/autodesk.svg"
